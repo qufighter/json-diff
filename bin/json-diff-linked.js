@@ -1,4 +1,4 @@
 #!/usr/bin/env node
 require('iced-coffee-script/register')
 
-module.exports = require('../lib/index');
+require('../lib/cli')(process.argv.slice(2));
